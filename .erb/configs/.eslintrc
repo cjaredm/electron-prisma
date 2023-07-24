@@ -1,0 +1,14 @@
+{
+  "rules": {
+    "no-console": "off",
+    "global-require": "off",
+    "import/no-dynamic-require": "off",
+    "trailing-comma": "off",
+    "comma-dangle": "off",
+    "comma-style": "off",
+    "single-quote": "off",
+    "import/named": "off",
+    "import/no-cycle": "off",
+    "import/no-relative-packages": "off"
+  }
+}

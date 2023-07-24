@@ -1,0 +1,76 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# auto generated types
+/src/premier-graphql/types.tsx
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+*.iml
+ehthumbs.db
+Thumbs.db
+.idea
+logs
+*.log
+npm-debug.log*
+pids
+*.pid
+*.seed
+*.pid.lock
+lib-cov
+coverage
+.nyc_output
+.grunt
+.lock-wscript
+build
+dist
+node_modules
+jspm_packages
+.npm
+.eslintcache
+.node_repl_history
+*.tgz
+.yarn-error.log
+.yarn-integrity
+.yarn-cache.tgz
+
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+Session.vim
+.netrwhist
+*~
+tags
+yarn.lock
+.vscode
+
+*.snap
+
+src/app/config/local.json
+src/server/config/local.json
+
+cypress/videos
+cypress/screenshots
+*.js.snap

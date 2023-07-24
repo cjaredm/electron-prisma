@@ -1,0 +1,21 @@
+{
+  "name": "runway-pos",
+  "version": "1.0.0",
+  "description": "Runway Fashion Exchange Point of Sale System",
+  "license": "MIT",
+  "author": {
+    "name": "Jared Mortenson",
+    "email": "jared@cjaredm.com",
+    "url": "https://github.com/cjaredm"
+  },
+  "main": "./dist/main/main.js",
+  "scripts": {
+    "rebuild": "node -r ts-node/register ../../.erb/scripts/electron-rebuild.js",
+    "postinstall": "npm run rebuild && npm run link-modules",
+    "link-modules": "node -r ts-node/register ../../.erb/scripts/link-modules.ts"
+  },
+  "dependencies": {},
+  "prisma": {
+    "schema": "dist/main/prisma/schema.prisma"
+  }
+}
